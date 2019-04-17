@@ -87,7 +87,7 @@ if __name__ == '__main__':
 	# v,h = approx_disp(next,prev)
 	# print(v)
 	# print(h)
-	train_end =  1#10797# 19399
+	train_end = 19399#10797# 19399
 	import csv
 	wf=open('./result/train_disp_surf_3.1.txt','w+',newline='') # format: start, end
 	writer=csv.writer(wf)
