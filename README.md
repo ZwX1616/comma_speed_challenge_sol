@@ -20,6 +20,7 @@ attempts:
 
 4. replace sliding window method in 3) with SURF feature matching to calculate displacement of consecutive frames, then do linear fitting, best training MSE ~3.3 with smoothing
 
+5. (future work) use the warped trapezoidal ROI for dense optical flow calculation (hopefully less noisy) and do regression using a CNN
 
 result visualization for method 4:
   <br />
