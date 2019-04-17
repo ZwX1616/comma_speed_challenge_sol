@@ -29,8 +29,8 @@ usage (method 4):
 3) python map_roi.py
 4) python velocity_by_surf.py to obtain pixelwise displacement (disp)
 5) postprocess (smoothing) and fit in matlab, with v=disp*0.9915+0.9294 (coefficients calculated from training set)
-
-
+  <br />
+  <br />
 result visualization for method 4:
   <br />
 train:
