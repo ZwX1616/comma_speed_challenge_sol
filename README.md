@@ -19,3 +19,9 @@ attempts:
 
 
 4. replace sliding window method in 3) with SURF feature matching to calculate displacement of consecutive frames, then do linear fitting, best training MSE ~3.3 with smoothing
+
+
+result visualization for method 4:
+  <br />
+![](https://github.com/ZwX1616/comma_speed_challenge_sol/blob/master/v_by_surf/result/output%5B00-00-04--00-00-34%5D.gif)
+![](https://github.com/ZwX1616/comma_speed_challenge_sol/blob/master/v_by_surf/result/train_3.png)
