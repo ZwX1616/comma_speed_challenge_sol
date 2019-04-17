@@ -18,4 +18,4 @@ attempts:
 3. choose a trapezoidal ROI and map it to rectangle using perspective transform, then use simple sliding window method to calculate the displacement between frames, then fit this disp to velocity, best training MSE ~6.3 with smoothing
 
 
-4. method 3 suffers from random noise a lot, will try sparse optical flow to replace sliding window
+4. replace sliding window method in 3) with SURF feature matching to calculate displacement of consecutive frames, then do linear fitting, best training MSE ~3.3 with smoothing
