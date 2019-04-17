@@ -25,13 +25,11 @@ attempts:
 result visualization for method 4:
   <br />
 train:
-
 ![](https://github.com/ZwX1616/comma_speed_challenge_sol/blob/master/v_by_surf/result/output%5B00-00-04--00-00-34%5D.gif)
 ![](https://github.com/ZwX1616/comma_speed_challenge_sol/blob/master/v_by_surf/result/train_3.png)
 
 
 test:
-
 ![](https://github.com/ZwX1616/comma_speed_challenge_sol/blob/master/v_by_surf/result/output%5B00-01-22--00-01-39%5D.gif)
 ![](https://github.com/ZwX1616/comma_speed_challenge_sol/blob/master/v_by_surf/result/test_3.png)
 
