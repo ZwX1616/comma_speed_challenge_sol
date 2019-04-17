@@ -87,14 +87,14 @@ if __name__ == '__main__':
 	# v,h = approx_disp(next,prev)
 	# print(v)
 	# print(h)
-	train_end = 19399#10797# 19399
+	train_end = 10797# 19399
 	import csv
-	wf=open('./result/train_disp_surf_3.1.txt','w+',newline='') # format: start, end
+	wf=open('./result/test_disp_surf_3.1.txt','w+',newline='') # format: start, end
 	writer=csv.writer(wf)
 	last = (12,0)
 	for i in range(train_end):
-		prev = cv2.imread('../data/image_train/'+str(i)+'.jpg')
-		next = cv2.imread('../data/image_train/'+str(i+1)+'.jpg')
+		prev = cv2.imread('../data/image_test/'+str(i)+'.jpg')
+		next = cv2.imread('../data/image_test/'+str(i+1)+'.jpg')
 		v,h,used_last = approx_disp_surf(next,prev,last)
 		writer.writerow([str(v),str(h)])
 		if used_last==False:
